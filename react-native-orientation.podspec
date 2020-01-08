@@ -9,8 +9,8 @@ Pod::Spec.new do |s|
   s.description    = package['description']
   s.license        = package['license']
   s.author         = package['author']
-  s.homepage       = package['homepage']
-  s.source         = { :git => 'https://github.com/yamill/react-native-orientation.git', :tag => s.version }
+  s.homepage       = "https://github.com/liuminghui2017/react-native-orientation"
+  s.source         = { :git => 'https://github.com/liuminghui2017/react-native-orientation.git', :tag => s.version }
 
   s.requires_arc   = true
   s.platform       = :ios, '7.0'
